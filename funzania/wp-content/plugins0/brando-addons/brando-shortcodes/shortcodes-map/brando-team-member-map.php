@@ -1,0 +1,225 @@
+<?php
+/**
+ * Map For Team Member
+ *
+ * @package Brando
+ */
+?>
+<?php
+
+/*-----------------------------------------------------------------------------------*/
+/* Team Member */
+/*-----------------------------------------------------------------------------------*/
+
+vc_map( array(
+      'name' => __( 'Team Member', 'brando-addons' ),
+      'base' => 'brando_team_member',
+      'category' => 'Brando',
+      'icon' => 'fa fa-users brando-shortcode-icon',
+      'description' => __( 'Create a team block', 'brando-addons' ),
+      'params' => array(
+        array(
+          'type' => 'dropdown',
+          'heading' => __('Team Member Style', 'brando-addons'),
+          'param_name' => 'brando_team_member_style',
+          'value' => array(__('Select Team Member Style', 'brando-addons') => '',
+                           __('Team Style1', 'brando-addons') => 'team-1',
+                           __('Team Style2', 'brando-addons') => 'team-2',
+                           __('Team Style3', 'brando-addons') => 'team-3',
+                           __('Team Style4', 'brando-addons') => 'team-4',
+                          ),
+        ),
+        array(
+          'type' => 'brando_preview_image',
+          'heading' => __('Select pre-made style for block', 'brando-addons'),
+          'param_name' => 'brando_team_preview_image',
+          'admin_label' => true,
+          'value' => array(__('Block image', 'brando-addons') => '',
+                           __('Team Style1', 'brando-addons') => 'team-1',
+                           __('Team Style2', 'brando-addons') => 'team-2',
+                           __('Team Style3', 'brando-addons') => 'team-3',
+                           __('Team Style4', 'brando-addons') => 'team-4',
+                          ),
+        ),
+        array(
+          'type' => 'attach_image',
+          'heading' => __( 'Team Member Image', 'brando-addons' ),
+          'param_name' => 'team_member_image',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+        ), 
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Member Name', 'brando-addons' ),
+          'param_name'  => 'brando_member_name',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Member Link', 'brando-addons' ),
+          'param_name'  => 'brando_member_link',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Subtitle', 'brando-addons' ),
+          'param_name'  => 'brando_member_subtitle',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1') ),
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Member Designation', 'brando-addons' ),
+          'param_name'  => 'brando_member_des',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+        ),
+        array(
+          'type' => 'textarea_html',
+          'heading' => __('Content', 'brando-addons'),
+          'param_name' => 'content',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-2','team-3') ),
+        ),
+        array(
+          'type' => 'brando_custom_switch_option',
+          'heading' => __('Show Separator', 'brando-addons'),
+          'param_name' => 'brando_show_separator',
+          'value' => array(__('No', 'brando-addons') => '0', 
+                           __('Yes', 'brando-addons') => '1'
+                          ),
+          'description' => __( 'Select YES to show post title', 'brando-addons' ),
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-2') ),
+        ),
+        array(
+          'type' => 'colorpicker',
+          'class' => '',
+          'heading' => __( 'Separator Color', 'brando-addons' ),
+          'param_name' => 'brando_sep_color',
+          'dependency' => array( 'element' => 'brando_show_separator', 'value' => array('1') ),
+          'group' => 'Settings',
+        ),
+        array(
+          'type' => 'textfield',
+          'heading' => __('Separator Height', 'brando-addons' ),
+          'param_name' => 'brando_seperator_height',
+          'value'     => '2px',
+          'dependency' => array( 'element' => 'brando_show_separator', 'value' => array('1') ),
+          'description' => __( 'Define custom separator height in px like 2px', 'brando-addons' ),
+          'group' => 'Settings',
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Facebook Url', 'brando-addons' ),
+          'param_name'  => 'brando_facebook_url',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group' => 'Social',
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Twitter Url', 'brando-addons' ),
+          'param_name'  => 'brando_twitter_url',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group' => 'Social',
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Google Plus Url', 'brando-addons' ),
+          'param_name'  => 'brando_gplus_url',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group' => 'Social',
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('LinkedIn Url', 'brando-addons' ),
+          'param_name'  => 'brando_linkedin_url',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group' => 'Social',
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Pinterest Url', 'brando-addons' ),
+          'param_name'  => 'brando_pinterest_url',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group' => 'Social',
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Email Url', 'brando-addons' ),
+          'param_name'  => 'brando_email_url',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group' => 'Social',
+        ),
+        array(
+          'type'        => 'textfield',
+          'heading'     => __('Behance Url', 'brando-addons' ),
+          'param_name'  => 'brando_behance_url',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group' => 'Social',
+        ),
+        array(
+          'type' => 'textarea_raw_html',
+          'heading' => __( 'Custom Icon & Link Code', 'brando-addons' ),
+          'param_name' => 'brando_team_member_custom_link',
+          'dependency' => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-3','team-4') ),
+          'group'       => 'Social',
+        ),
+        array(
+          'type' => 'colorpicker',
+          'class' => '',
+          'heading' => __( 'Member Name Color', 'brando-addons' ),
+          'param_name' => 'brando_member_name_color',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+          'group' => 'Color',
+        ),
+        array(
+          'type' => 'colorpicker',
+          'class' => '',
+          'heading' => __( 'Member Designation Color', 'brando-addons' ),
+          'param_name' => 'brando_member_des_color',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+          'group' => 'Color',
+        ),
+        array(
+          'type' => 'colorpicker',
+          'class' => '',
+          'heading' => __( 'Subtitle Color', 'brando-addons' ),
+          'param_name' => 'brando_subtitle_color',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1') ),
+          'group' => 'Color',
+        ),
+        array(
+          'type' => 'colorpicker',
+          'class' => '',
+          'heading' => __( 'Content BG Color', 'brando-addons' ),
+          'param_name' => 'brando_content_bg_color',
+          'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3') ),
+          'group' => 'Color',
+        ),
+        array(
+            'type' => 'dropdown',
+            'heading' => __('Image Thumbnail Size', 'brando-addons'),
+            'param_name' => 'brando_image_srcset',
+            'value' => brando_image_size(),
+            'std' => 'full',
+            'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+            'group' => 'Image',
+        ),
+        array(
+            'type'        => 'responsive_font_settings',
+            'param_name'  => 'sub_title_settings',
+            'heading'     => esc_html__( 'Font Settings For Sub-Title', 'hcode-addons' ),
+            'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1') ),
+            'group' => 'Font Settings',
+        ),
+        array(
+            'type'        => 'responsive_font_settings',
+            'param_name'  => 'member_name_settings',
+            'heading'     => esc_html__( 'Font Settings For Member Name', 'hcode-addons' ),
+            'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+            'group' => 'Font Settings',
+        ),
+        array(
+            'type'        => 'responsive_font_settings',
+            'param_name'  => 'member_designation_settings',
+            'heading'     => esc_html__( 'Font Settings For Member Designation', 'hcode-addons' ),
+            'dependency'  => array( 'element' => 'brando_team_member_style', 'value' => array('team-1','team-2','team-3','team-4') ),
+            'group' => 'Font Settings',
+        ),
+)));
