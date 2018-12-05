@@ -1,0 +1,17 @@
+[31-May-2018 12:11:36 UTC] WordPress database error Unknown column 'elect_' in 'field list' for query SELECT elect_
+[31-May-2018 12:22:30 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:22:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:22:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:22:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:22:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:22:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:23:25 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:23:48 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[31-May-2018 12:23:53 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/seanelectromec/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[12-Jun-2018 14:07:57 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[12-Jun-2018 14:07:57 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[12-Jun-2018 14:07:57 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
+[13-Jun-2018 15:50:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/bizgrowt/public_html/seanelectromec/wp-content/plugins/lee_framework/admin/metabox/init.php on line 737
+[13-Jun-2018 15:53:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/bizgrowt/public_html/seanelectromec/wp-content/plugins/lee_framework/admin/metabox/init.php on line 737
+[15-Jun-2018 12:00:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/bizgrowt/public_html/seanelectromec/wp-content/plugins/lee_framework/admin/metabox/init.php on line 737
+[15-Jun-2018 12:00:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/bizgrowt/public_html/seanelectromec/wp-content/plugins/lee_framework/admin/metabox/init.php on line 737

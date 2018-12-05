@@ -1,0 +1,97 @@
+[14-Sep-2018 14:13:56 UTC] WordPress database error Unknown column 'afc_' in 'field list' for query SELECT afc_
+[14-Sep-2018 14:22:20 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:22:37 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:22:37 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:22:37 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:22:37 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:22:37 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:23:08 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:23:34 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 14:23:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home2/bizgrowt/public_html/africanty/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[14-Sep-2018 15:26:59 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[14-Sep-2018 15:27:15 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[14-Sep-2018 15:27:17 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[14-Sep-2018 15:27:18 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[14-Sep-2018 15:27:23 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[14-Sep-2018 15:27:25 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[14-Sep-2018 15:27:27 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer.php on line 209
+[14-Sep-2018 15:27:30 UTC] PHP Warning:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /home2/bizgrowt/public_html/africanty/wp-content/plugins/lee_framework/admin/importer/wordpress-importer.php on line 38
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[18-Sep-2018 15:30:13 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[19-Sep-2018 16:58:53 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 10:40:31 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:55:48 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Cannot assign an empty string to a string offset in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 124
+[20-Sep-2018 12:56:30 UTC] PHP Warning:  Illegal string offset 'title' in /home2/bizgrowt/public_html/africanty/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 127
+[20-Sep-2018 14:52:41 UTC] PHP Warning:  A non-numeric value encountered in /home2/bizgrowt/public_html/africanty/wp-content/themes/africanty/headers/includes/mini-cart-sidebar.php on line 8
+[20-Sep-2018 14:52:41 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Sep-2018 14:52:41 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2018 14:52:41 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
+[20-Sep-2018 14:52:59 UTC] PHP Warning:  A non-numeric value encountered in /home2/bizgrowt/public_html/africanty/wp-content/themes/africanty/headers/includes/mini-cart-sidebar.php on line 8
+[20-Sep-2018 14:52:59 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Sep-2018 14:52:59 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2018 14:52:59 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
+[20-Sep-2018 14:53:16 UTC] PHP Warning:  A non-numeric value encountered in /home2/bizgrowt/public_html/africanty/wp-content/themes/africanty/headers/includes/mini-cart-sidebar.php on line 8
+[20-Sep-2018 14:53:16 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Sep-2018 14:53:16 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2018 14:53:16 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
+[20-Sep-2018 21:28:29 UTC] PHP Warning:  A non-numeric value encountered in /home2/bizgrowt/public_html/africanty/wp-content/themes/africanty/headers/includes/mini-cart-sidebar.php on line 8
+[20-Sep-2018 21:28:29 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Sep-2018 21:28:29 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2018 21:28:29 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
+[20-Sep-2018 21:29:27 UTC] PHP Warning:  A non-numeric value encountered in /home2/bizgrowt/public_html/africanty/wp-content/themes/africanty/headers/includes/mini-cart-sidebar.php on line 8
+[20-Sep-2018 21:29:27 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Sep-2018 21:29:27 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2018 21:29:27 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
+[20-Sep-2018 23:06:28 UTC] PHP Warning:  A non-numeric value encountered in /home2/bizgrowt/public_html/africanty/wp-content/themes/africanty/headers/includes/mini-cart-sidebar.php on line 8
+[20-Sep-2018 23:06:28 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Sep-2018 23:06:28 UTC] PHP Warning:  A non-numeric value encountered in /home2/bizgrowt/public_html/africanty/wp-content/themes/africanty/headers/includes/mini-cart-sidebar.php on line 8
+[20-Sep-2018 23:06:28 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[20-Sep-2018 23:06:28 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[20-Sep-2018 23:06:28 UTC] The WC_Cart::get_checkout_url function is deprecated since version 2.5. Replace with wc_get_checkout_url.
