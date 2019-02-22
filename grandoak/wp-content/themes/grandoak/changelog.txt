@@ -1,0 +1,119 @@
+v1.4 - 4/12/2017
+- BugFix | Animations
+- Update | Visual Composer v5.4.5
+- Update | Alma Framework v1.1
+
+v1.3 - 11/10/2017
+- BugFix | Menu Scroll.
+
+v1.2.0 - 29/03/2017
+- BugFix | Minor Bugs.
+- BugFix | Posts - Password Protected
+- Update | Pixelthrone Plugin, now called Alma Framework
+- Update | Visual Composer v5.0
+
+v1.1.24 - 12/09/2016
+- Update | Pixelthrone Plugin 1.1.20
+- Added | Multi Page Navigation
+
+v1.1.23 - 5/09/2016
+- BugFix | Bottom Menu Offset
+
+v1.1.22 - 6/07/2016
+- BugFix | Google Maps ( Key/Authentication )
+
+v1.1.21 - 5/07/2016
+- Update | Pixelthrone Plugin 1.1.19
+- Update | Visual Composer 4.12
+- Update | Revolution Slider 5.2.6
+- Added  | Options to add image in the loading screen.
+- Update | Minor improvements
+- Update | Google Maps ( Key/Authentication )
+
+v1.1.20 - 4/05/2016
+- BugFix | Blog Page - Visual Composer Shortcodes css loading
+- BugFix | Portfolio - Categories with special characters
+- update | Pixelthrone Plugin 1.1.18
+
+v1.1.19 - 28/04/2016
+- BugFix | Shortcodes Css
+
+v1.1.18 - 25/04/2016
+- update | All shortcodes ( We added a required parameter for the VC always save options )
+
+v1.1.17 - 20/04/2016
+- update | Visual Composer 4.11.2.1
+- update | Revolution Slider 5.2.5
+
+v1.1.16 - 10/04/2016
+- update | Visual Composer 4.11.1
+- update | Revolution Slider 5.2.4.1
+- update | PixelThrone Plugin 
+
+v1.1.14 - 16/09/2014
+- Added Testimonials autoplay option
+
+v1.1.13 - 09/09/2014
+- Update RevSlider 4.6
+- Fixed default color for header
+- Fixed hide bg in 1st page with nav on bottom
+
+v1.1.12 - 06/08/2014
+- Fixed notices with child theme
+
+v1.1.11 - 15/07/2014
+- Fixed placeholders
+
+v1.1.10 - 08/07/2014
+- Fixed # link in portfolio categories
+- new carroucel plugin
+
+v1.1.9 - 17/06/2014
+- Fixed contact form
+- Set VC as theme
+
+v1.1.8 - 02/06/2014
+- Fixed Show Menu in First Page option
+
+v1.1.7 - 29/05/2014
+- Added audio shortcode
+- Added Child Theme
+
+v1.1.6 - 28/05/2014
+- Fixed left align Shortcode Separators
+- Fixed TGM bulk installer
+- Fixed Testimonials Shortcode show icon
+- Update Theme Options
+
+v1.1.5 - 21/05/2014
+- Added video volume option
+
+v1.1.4 - 20/05/2014
+- Added fonts Subsets
+
+v1.1.3 - 19/05/2014
+- Fixed page direct access
+
+v1.1.2 - 17/05/2014
+- Improved — Technical Warnings
+
+v1.1.1 - 16/05/2014
+- Added missed css
+- Added Redux as a plugin
+- mixed plugin validations
+- Fixed portfolio show page option
+- Fixed sound only plays in homepage
+- Fixed Image Gallery Shortcode
+- Fixed blog dates
+- mixed blog fixes
+
+v1.1.0 - 6/05/2014
+- BugFix — Multi Portfolios
+- BugFix — Contact form send msg
+- Added  — Audio player on the Home
+
+v1.0.1 - 26/04/2014
+- Update Visual Composer 4.1.2
+
+v1.0.0 - 23/04/2014
+- Initial release
